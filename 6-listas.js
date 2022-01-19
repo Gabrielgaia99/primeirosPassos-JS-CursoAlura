@@ -10,8 +10,16 @@ const listaDeDestinos = new Array(
     `Rio de Janeiro`
     
     
+    
+    
 
-)
+);
+listaDeDestinos.push(`Maceió`, `São josé da Tapera`); //adicionando um item na lista
+console.log("Destinos possíveis");
+//console.log(salvador,saoPaulo,rioDeJaneiro);
+console.log(listaDeDestinos);
 
-console.log("Destinos possíveis")
-console.log(salvador,saoPaulo,rioDeJaneiro);
+listaDeDestinos.splice(1,1);
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[3]); //Colocar só um destino.
+
