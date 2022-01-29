@@ -34,7 +34,7 @@ console.log(listaDeDestinos);
 // }
 
 
-if(idadeComprador >= 18 || estaAcompanhada == true
+if(idadeComprador >= 18 || estaAcompanhada == false
     ) {
 
     console.log("Comprador maior de idade");
@@ -45,9 +45,9 @@ if(idadeComprador >= 18 || estaAcompanhada == true
     
 }
 
-console.log("Embarque: \n \n");
+console.log("Embarque: \n");
 if(idadeComprador >= 18 && temPassagemComprada){
-    console.log("Boa Viagem");
+    console.log("Boa Viagem!!");
 
 }else{
     console.log("Infelizmente você não pode embarcar");
